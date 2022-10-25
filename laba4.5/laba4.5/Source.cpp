@@ -27,8 +27,8 @@ int main()
 
 		for (int i = 0; i < 10; i++)
 		{
-			x = 6. * rand() / RAND_MAX - 3;
-			y = 6. * rand() / RAND_MAX - 3;
+			x = 6. * rand() / RAND_MAX - (a,b,R);
+			y = 6. * rand() / RAND_MAX - (a,b,R);
 			if ((pow(x, 2) + pow(y, 2) >= pow(R, 2) && y <= b && x <= a && y >= x) ||
 				(pow(x, 2) + pow(y, 2) <= pow(R, 2) && y <= x && y >= -b && x <= 0))
 				cout << setw(8) << setprecision(4) << x << " "
